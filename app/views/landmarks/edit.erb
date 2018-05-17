@@ -1,0 +1,10 @@
+<form  action="/landmarks/<%= @landmark.id %>" method="post">
+  <label for="landmark_name">Landmark Name:</label>
+  <input id="landmark_name"type="text" name="name" value="<%= @landmark.name %>">
+
+  <label for="landmark_year_completed">Year Completed:</label>
+  <input type="text" name="year_completed" value="<%= @landmark.year_completed %>">
+
+  <input type="submit" value="Submit!">
+
+</form>

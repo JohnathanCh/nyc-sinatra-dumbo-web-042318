@@ -44,11 +44,12 @@ figure_list = {
     },
     "Ada Lovelace" => {
     },
-    "Linus Torvalds" => { 
+    "Linus Torvalds" => {
     }
   }
 
-figure_list.each do |name, figure_hash|
+
+ do |name, figure_hash|
   p = Figure.new
   p.name = name
   p.save
